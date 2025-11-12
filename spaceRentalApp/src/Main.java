@@ -33,7 +33,7 @@ public class Main {
         userService.register(testUser);
         User loggedInUser = userService.login(123L, "456");
 
-        // space 생성 (관리자 입장)
+        // space 생성 (관리자가 생성)
         Space testSpace = spaceFactory.createSpace(
                 1L, // Long ID
                 "강남 3호점",
